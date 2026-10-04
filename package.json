@@ -1,0 +1,21 @@
+{
+  "name": "dummy-pi-config",
+  "version": "1.0.0",
+  "description": "Slot machine extension for pi — play with /slots while the AI works",
+  "keywords": [
+    "pi-package"
+  ],
+  "license": "MIT",
+  "files": [
+    "extensions"
+  ],
+  "pi": {
+    "extensions": [
+      "./extensions"
+    ]
+  },
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": "*",
+    "@mariozechner/pi-tui": "*"
+  }
+}
